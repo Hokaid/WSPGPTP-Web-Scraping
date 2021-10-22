@@ -10,5 +10,5 @@ This is a web scraping project
 6. Install openpyxl with the following command: pip install openpyxl
 7. Open the project with Visual Studio Code
 8. Install the "Python" extension for Visual Studio Code
-9. Open the file "scrap.py"
+9. Open the file "scrap.py" in Visual Studio Code
 10. Within the file, right-click and select "Run Code". 
