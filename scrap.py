@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import re
 
-df = pd.read_csv('Alumnos.csv')
+df = pd.read_excel('Alumnos.xlsx')
 alumnos = []
 
 for element in df['codigo']:
@@ -24,5 +24,5 @@ for element in df['codigo']:
     alumnos.append(alumno)
 
 df = pd.DataFrame(alumnos, columns = ['codigo', 'promedio acumulado', 'nivel de ingles'])
-df.to_csv('Resultado.csv', index=False)
+df.to_excel('Resultado.xlsx', index=False)
 
